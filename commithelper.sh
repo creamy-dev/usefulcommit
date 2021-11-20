@@ -1,6 +1,6 @@
 #!/bin/bash 
-echo "WARNING: If you are using ordinary clicommitr in the path, it WILL break!"
-echo "Instead, use clicommitr_diversion.sh."
+echo "WARNING: If you are using the ordinary helper in the path, it WILL break!"
+echo "Instead, use clicommitr."
 export URL=$PWD
 cd "magic"
 MAGIC=$(node index.js --commit="$1" --type="$2" --lint)
